@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Log in</title>
+  <title>Login</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -17,12 +17,12 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+    <a href='/seller-login'><b>Seller </b>Login</a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
+      <p class="login-box-msg">Login to proceed to Dashboard</p>
 
       <form action="../../index3.html" method="post">
         <div class="input-group mb-3">
@@ -52,9 +52,10 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
           </div>
           <!-- /.col -->
+
         </div>
       </form>
 
@@ -73,8 +74,12 @@
         <a href='/seller-forgot-password'>I forgot my password</a>
       </p>
       <p class="mb-0">
-        <a href='/seller-register'class="text-center">Register a new membership</a>
+        <a href='/seller-register'class="text-center">Register</a>
       </p>
+      <p class="mb-0">
+        <a href='/main-dashboard'class="text-center">Dashboard demo</a>
+      </p>
+
     </div>
     <!-- /.login-card-body -->
   </div>
