@@ -12,27 +12,35 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/seller-login', function(){
-        return view('login');
+
+Route::get('/seller-login', function () {
+    return view('login');
 });
-Route::get('/seller-register', function(){
-        return view('registration/registrationSelector');
-});
-Route::get('/seller-forgot-password', function(){
-        return view('forgotPassword');
-});
-Route::get('/registration-select', function(){
+Route::get('/seller-register', function () {
     return view('registration/registrationSelector');
 });
-Route::get('/register-gstin', function(){
+Route::get('/seller-forgot-password', function () {
+    return view('forgotPassword');
+});
+Route::get('/registration-select', function () {
+    return view('registration/registrationSelector');
+});
+Route::get('/register-gstin', function () {
     return view('registration/gstinRegister');
 });
-Route::get('/register-no-gstin', function(){
+Route::get('/register-no-gstin', function () {
     return view('registration/noGstinregister');
 });
-Route::get('/main-dashboard', function(){
+Route::get('/register-upload', function () {
+    return view('registration/uploadDoc');
+});
+Route::get('/register-upload-gst', function () {
+    return view('registration/uploadGstDoc');
+});
+Route::get('/main-dashboard', function () {
     return view('dashboard/dashboard');
 });
+
 Route::get('/', function () {
     return view('login');
 });
