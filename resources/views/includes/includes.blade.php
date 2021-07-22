@@ -16,3 +16,7 @@
         $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
     });
 </script>
+<script src="{{asset('/assets/plugins/tables/js/jquery.dataTables.min.js')}}"></script>
+    <script src="{{asset('/assets/plugins/tables/js/datatable/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{asset('/assets/plugins/tables/js/datatable-init/datatable-basic.min.js')}}"></script>
+    <link href="{{asset('/assets/plugins/tables/css/datatable/dataTables.bootstrap4.min.css')}}" rel="stylesheet">

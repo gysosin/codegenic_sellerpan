@@ -40,7 +40,24 @@ Route::get('/register-upload-gst', function () {
 Route::get('/main-dashboard', function () {
     return view('dashboard/dashboard');
 });
-
+Route::get('/dashboard-products', function () {
+    return view('dashboard/products');
+});
+Route::get('/dashboard-orders', function () {
+    return view('dashboard/orders');
+});
+Route::get('/dashboard-reviews', function () {
+    return view('dashboard/reviews');
+});
+Route::get('/dashboard-sellhistory', function () {
+    return view('dashboard/sellinghistory');
+});
+Route::get('/dashboard-alltrans', function () {
+    return view('dashboard/alltrans');
+});
+Route::get('/dashboard-pendingamount', function () {
+    return view('dashboard/pendingamount');
+});
 Route::get('/', function () {
     return view('login');
 });
